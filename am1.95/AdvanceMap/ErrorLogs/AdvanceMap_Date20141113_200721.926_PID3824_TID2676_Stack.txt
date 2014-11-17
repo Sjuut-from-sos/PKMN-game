@@ -1,0 +1,38 @@
+(EProcess) Failed to execute C:\Users\thenc_000\Desktop\PKMN Game\PkmAdvundPokescript\PoketScript.exe Pokemon FireRed.gba:800000 : 740
+Stacktrace:
+  $004C7232
+  $00590796
+  $00462B7D
+  $0051A394
+  $0055BF7F
+  $0055C456
+  $0055C9B1
+  $0055BE1A
+  $0040AFFA
+  $00510E72
+  $0056FE17
+  $0052F6E5
+  $770D7834
+  $770D7A9A
+  $77109CFE
+  $770DD400
+  $72EFA2E2
+
+AdvanceMap Version: 1.9.5.0
+
+Rom informations:
+Filename: C:\Users\thenc_000\Desktop\PKMN Game\ROM\Pokemon FireRed\Pokemon FireRed.gba
+Romname: POKEMON FIREBPRE
+
+Actual position:
+aktModularForm: AMMainForm
+CurrentViewID: 2
+MapIndex: 3.0
+OldMapIndex: 3.0
+LoadingMapIndex: 3.0
+isMapFile: false
+MapHeaderData: C0D42D08504E3B085A5416086C2735082C014E005800020101060000
+MapFooterData: 1800000014000000F8D02D0800D12D08944A2D08AC4A2D0802020000
+EventHeaderData: 04030305844D3B08CC4D3B08E44D3B08144E3B08
+Connections (ConDataOffset/ConnectionAmount): $352754 / 2
+WildPokemonHeader: 0300000000000000DC973C00000000000C983C00

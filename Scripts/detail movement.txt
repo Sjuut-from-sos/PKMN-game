@@ -1,0 +1,63 @@
+#dynamic 0x8008FE
+
+#org @start
+msgbox @talk1 0x6
+playsong 0x011A 0x0
+applymovement 10 @walk1
+waitmovement 10
+applymovement 0xFF @walk2
+waitmovement 0xFF
+msgbox @talk2 0x6
+giveitem 0x103 1 0x0
+msgbox @talk3 0x6
+applymovement 10 @walk3
+waitmovement 10
+hidesprite 10
+setvar 0x6000 0x1
+setflag 0x1206
+fadesong 0x012C
+release
+end
+
+#org @talk1
+= HEY WAIT! DONT GO YET!
+
+#org @talk2
+= I fixed your bike finally and it\nruns better than ever!\pHere you go!
+
+#org @talk3
+= That's all I needed to give you.\nI'll catch you later!\pBye!
+
+#org @walk1
+#raw 0x10
+#raw 0x10
+#raw 0x10
+#raw 0x10
+#raw 0x10
+#raw 0x10
+#raw 0x10
+#raw 0x12
+#raw 0x12
+#raw 0x12
+#raw 0x12
+#raw 0x4A
+#raw 0xFE
+
+#org @walk2
+#raw 0x63
+#raw 0x55
+#raw 0xFE
+
+#org @walk3
+#raw 0x13
+#raw 0x13
+#raw 0x13
+#raw 0x13
+#raw 0x11
+#raw 0x11
+#raw 0x11
+#raw 0x11
+#raw 0x11
+#raw 0x11
+#raw 0x11
+#raw 0xFE
